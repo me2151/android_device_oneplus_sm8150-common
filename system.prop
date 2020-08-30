@@ -23,6 +23,9 @@ persist.debug.coresight.config=stm-events
 # DPM
 persist.vendor.dpm.feature=9
 
+# Fingerprint
+vendor.boot.fingerprintbstate=orange
+
 # GPS
 persist.vendor.overlay.izat.optin=rro
 
