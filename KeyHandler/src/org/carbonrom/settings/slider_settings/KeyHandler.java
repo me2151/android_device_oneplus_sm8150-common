@@ -97,11 +97,6 @@ public class KeyHandler implements DeviceKeyHandler {
     }
 
     public KeyEvent handleKeyEvent(KeyEvent event) {
-
-        if (event.getAction() != KeyEvent.ACTION_DOWN) {
-            return event;
-        }
-
         int scanCode = event.getScanCode();
         String keyCode = Constants.sKeyMap.get(scanCode);
         int keyCodeValue = 0;
